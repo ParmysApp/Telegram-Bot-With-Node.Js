@@ -96,3 +96,31 @@ bot.on('message', async msg => {
 ```
 node index.js
 ```
+## ۵. اجرای ربات بصورت دائمی
+نصب PM2
+```
+sudo npm install -g pm2
+```
+اجرای ربات با PM2
+```
+pm2 start bot.js --name telegram-bot
+```
+ذخیره تنظیمات PM2 برای راه‌اندازی خودکار
+```
+pm2 save
+```
+```
+pm2 startup
+```
+مدیریت فرآیندها
+```
+pm2 list
+```
+برای توقف برنامه
+```
+pm2 stop telegram-bot
+```
+برای شروع مجدد برنامه
+```
+pm2 restart telegram-bot
+```
