@@ -6,7 +6,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 sudo apt install nodejs npm -y
 ```
-## بررسی نصب
+بررسی نصب
 ```
 node -v
 ```
