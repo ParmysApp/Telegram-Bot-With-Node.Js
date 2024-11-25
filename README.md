@@ -1,4 +1,4 @@
-## ۱. نصب Node.js و MySQL
+## ۱. نصب Node.js
 نصب Node.js و npm
 ```
 sudo apt update && sudo apt upgrade -y
