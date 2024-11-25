@@ -1,0 +1,11 @@
+## Install & Upgrade
+```
+sudo apt update && sudo apt upgrade -y
+```
+```
+apt list --upgradable
+```
+## Install NodeJs And NPM
+```
+sudo apt install nodejs npm -y
+```
