@@ -21,7 +21,7 @@ mkdir telegram-bot && cd telegram-bot
 ```
 npm init -y
 ```
-## نصب کتابخانه‌های مورد نیاز
+نصب کتابخانه‌های مورد نیاز
 ```
 npm install mysql2 node-telegram-bot-api dotenv
 ```
